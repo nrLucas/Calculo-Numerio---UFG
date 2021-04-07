@@ -1,4 +1,4 @@
-# Resolver o sistema com a matriz triangular inferior
+# Resolver o sistema da matriz triangular inferior
 def triangular_inferior(A, b):
     
     n = len(A)
@@ -11,7 +11,7 @@ def triangular_inferior(A, b):
         x[i] = (b[i]-S)/A[i][i]
     return x
 
-# Resolver o sistema com a matriz triangular superior
+# Resolver o sistema da matriz triangular superior
 def triangular_superior(A, b):
 
     n = len(A)
@@ -34,7 +34,7 @@ def identidade(n):
         m.append(linha)
     return m
 
-# Fatorar a Matriz A na matriz L e U
+# Fatorar a Matriz A nas matrizes L e U
 def lu(A):
     
     n = len(A)
